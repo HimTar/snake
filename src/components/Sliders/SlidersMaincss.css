@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.SliderContainer {
+  margin: 0;
+  padding: 0;
+  background: #8383fc;
+}
+
+.SliderContainer .content {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  background: #f9ff48;
+}
+
+.SliderContainer .grid {
+  width: 600px;
+  height: 600px;
+  margin: 4.2% 10%;
+  position: relative;
+  border: 5px solid black;
+}
+
+.SliderContainer .grid .snakeblock {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background: black;
+  border: 1px solid #ffffff;
+  z-index: 2;
+}
+
+.SliderContainer .grid .food {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background: red;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.SliderContainer button {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
